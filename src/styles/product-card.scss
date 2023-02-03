@@ -1,0 +1,44 @@
+.product__item{
+    cursor: pointer;
+    .product__img{
+        
+        img{
+            height: 300px;
+            object-fit: contain;
+        }
+    }
+    .product__info{
+        .product__name{
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-top: 15px;
+            a{
+                &:hover{
+                    color: inherit;
+                }
+            }
+        }
+        span{
+            font-style: 0.9rem;
+        }
+        
+    }
+    
+    .product__card-bottom{
+        .price{
+            color: var(--primary-color);
+            font-style: 1.3rem;
+            font-weight: 500;
+        }
+        span{
+            i{
+                font-style: 1.2rem;
+                padding: 5px;
+                background: var(--primary-color);
+                color: white;
+                border-radius: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+.buy__btn {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  font-style: 1rem;
+  margin-top: 40px;
+}
+.buy__btn a:hover {
+  color: white;
+}
+
+.hero__section {
+  background: var(--hero-bg-01);
+}
+.hero__section .hero__content {
+  padding-top: 45px;
+}
+.hero__section .hero__content h2 {
+  color: var(--primary-color);
+  font-style: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.hero__section .hero__content p {
+  color: var(--primary-color);
+  line-height: 28px;
+}
+.hero__section .hero__content p:nth-child(1) {
+  font-weight: 500;
+}
+.timer__count {
+  background: var(--primary-color);
+  height: 300px;
+}
+.timer__count .container .row div img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 70% !important;
+  height: 70% !important;
+}
+.timer__count .store__btn {
+  background: #fff;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.timer__count .store__btn a:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__content h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero__content h2 {
+    font-size: 1.8rem;
+  }
+  .hero__content p {
+    font-style: 0.9rem;
+  }
+  .hero__content .buy__btn {
+    font-style: 0.9rem;
+  }
+  .timer__count .count__down-col {
+    text-align: center;
+  }
+  .timer__count .clock__wrapper {
+    justify-content: center;
+  }
+  .timer__count .counter__img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    padding-top: 0 !important;
+    margin-bottom: 40px !important;
+  }
+}/*# sourceMappingURL=home.css.map */

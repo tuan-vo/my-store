@@ -1,0 +1,12 @@
+.table tr td {
+  color: var(--primary-color);
+}
+.table tr td img {
+  width: 80px !important;
+  height: 80px !important;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.table tr td i {
+  cursor: pointer;
+}/*# sourceMappingURL=cart.css.map */

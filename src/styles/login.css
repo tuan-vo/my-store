@@ -1,0 +1,28 @@
+.auth__form {
+  background: var(--primary-color);
+  padding: 40px;
+  border-radius: 5px;
+}
+.auth__form .form__group input {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: none;
+}
+.auth__form .form__group input[type=file] {
+  color: #fff;
+  padding: 10px;
+}
+.auth__form .login__btn {
+  background: white;
+  color: var(--primary-color);
+  font-weight: 600;
+  width: 100%;
+  margin-top: 10px;
+}
+.auth__form p {
+  margin-top: 30px;
+}
+.auth__form p a {
+  color: rgba(255, 255, 255, 0.795);
+}/*# sourceMappingURL=login.css.map */

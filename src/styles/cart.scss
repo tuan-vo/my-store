@@ -1,0 +1,15 @@
+.table{
+    tr{
+        td{
+            color: var(--primary-color);
+            img{
+                width: 80px !important;
+                height: 80px !important;
+                object-fit: contain;
+            }
+            i{
+                cursor: pointer;
+            }
+        }
+    }
+}

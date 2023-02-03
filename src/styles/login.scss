@@ -1,0 +1,31 @@
+.auth__form{
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px ;
+    .form__group{
+        input{
+            width: 100%;
+            padding: 6px 12px;
+            border-radius: 3px;
+            border: none;
+            &[type= 'file']{
+                color: #fff;
+                padding: 10px;
+            }
+        }
+        
+    }
+    .login__btn{
+        background:white;
+        color: var(--primary-color);
+        font-weight: 600;
+        width: 100%;
+        margin-top: 10px;
+    }
+    p{
+        margin-top: 30px;
+        a{
+            color: rgba(255, 255, 255, 0.795);
+        }
+    }
+}
