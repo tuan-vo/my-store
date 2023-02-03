@@ -4,13 +4,11 @@ import { Container, Row, Col } from 'reactstrap'
 import {Link} from 'react-router-dom'
 import {motion} from 'framer-motion'
 import '../styles/home.css'
-import heroImg from '../assets/images/ip-14-pro.jpg'
 import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
 import Clock from '../components/UI/Clock'
 import Loading from '../components/UI/Loading'
 
-import countImg from '../assets/images/iphone14.png'
 import useGetData from '../custom-hooks/useGetData'
 
 const Home = () => {
@@ -53,7 +51,7 @@ const Home = () => {
           </Col>
           <Col lg='6' md='6' className='d-flex align-items-center'>
             <div className="hero__img">
-              <img src={heroImg} alt="" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/istore-ac2fd.appspot.com/o/productImages%2Fip-14-pro.jpg?alt=media&token=f8a1dec6-1c46-4ad4-8863-b8f10399bfed" alt="" />
             </div>
           </Col>
         </Row>
@@ -102,7 +100,7 @@ const Home = () => {
 
           </Col>
           <Col lg='6' md='6' className='text-end counter__img'>
-            <img src={countImg} alt="" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/istore-ac2fd.appspot.com/o/productImages%2Fiphone14.png?alt=media&token=4a260f73-806b-43fd-9d74-cc55bd56eb97" alt="" />
           </Col>
         </Row>
       </Container>

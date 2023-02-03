@@ -5,7 +5,6 @@ import { motion } from 'framer-motion'
 import { NavLink, useNavigate, Link } from "react-router-dom"
 import { Container, Row } from 'reactstrap'
 import logo from '../../assets/images/logo.png'
-import userIcon from '../../assets/images/user_icon.png'
 import useAuth from '../../custom-hooks/useAuth'
 import { signOut } from 'firebase/auth'
 import { auth } from '../../firebase'
@@ -91,7 +90,7 @@ const Header = () => {
               <i className="ri-shopping-cart-line"></i>
               <span className="badge">{totalQuantity}</span></span>
             <div className='profile'>
-              <motion.img  onClick={ProfileActionsToggle} whileTap={{ scale: 1.2 }} src={currentUser?currentUser.photoURL: userIcon} alt="" />
+              <motion.img  onClick={ProfileActionsToggle} whileTap={{ scale: 1.2 }} src={currentUser?currentUser.photoURL: "https://firebasestorage.googleapis.com/v0/b/istore-ac2fd.appspot.com/o/productImages%2Fuser_icon.png?alt=media&token=0d2cf503-960d-406d-9976-2bea49c6ff14"} alt="" />
               <div className="profile__actions" ref={profileActionRef} onClick={ProfileActionsToggle}>
                 {currentUser ? <span onClick={logout}>Đăng xuất</span> :
                 <div>
