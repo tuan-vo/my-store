@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.afa3d7ae.css",
+    "main.js": "./static/js/main.cee14ac2.js",
+    "static/media/remixicon.svg?t=1590207869815": "./static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/iphone14.png": "./static/media/iphone14.00da49f812c3f3e0fc34.png",
+    "static/media/remixicon.eot?t=1590207869815": "./static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "./static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "./static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "./static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/iphone_14_hero__common.jpg": "./static/media/iphone_14_hero__common.838b577a32198c6ebf2f.jpg",
+    "static/media/ip-14-pro.jpg": "./static/media/ip-14-pro.c2c67a7ff89769bfdf3e.jpg",
+    "static/media/logo.png": "./static/media/logo.440b0d23ae61e3b7f708.png",
+    "static/media/logo-white.png": "./static/media/logo-white.f5677cc1e6748cde035c.png",
+    "static/media/user_icon.png": "./static/media/user_icon.2e753e8a883ff22b0687.png",
+    "index.html": "./index.html",
+    "main.afa3d7ae.css.map": "./static/css/main.afa3d7ae.css.map",
+    "main.cee14ac2.js.map": "./static/js/main.cee14ac2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afa3d7ae.css",
+    "static/js/main.cee14ac2.js"
+  ]
+}
